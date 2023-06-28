@@ -1,0 +1,244 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<script type="text/javascript" src="../static/js/jquery.js"></script>
+<script type="text/javascript" src="../static/js/echarts.min.js"></script>
+	<script type="text/javascript" src="../static/js/china.js"></script>
+<script type="text/javascript" src="../static/js/js.js"></script>
+<script type="text/javascript" src="../static/js/jquery.cxselect.min.js"></script>
+<link rel="stylesheet" href="../static/css/comon0.css">
+</head>
+
+<body>
+	<div class="canvas">
+	<iframe src="../static/js/canvas.html" frameborder="0" style="width: 100%; height: 100%"></iframe>
+	</div>
+<div class="loading">
+  <div class="loadbox"> <img src="../static/picture/loading.gif"> 页面加载中... </div>
+</div>
+<div style="overflow: hidden;background:rgba(0,0,40,0) ; position: relative; z-index: 2;">
+
+  <div class="mainbox">
+    <ul class="clearfix">
+      <li>
+        <div class="boxall" style="height:350px;">
+          <div class="alltitle">用户消费支出占比</div>
+          <div class="navboxall" id="echart1" >
+          </div>
+        </div>
+
+        <div class="boxall" style="height:360px;">
+          <div class="alltitle">用户支出额比例</div>
+          <div class="navboxall" id="echart32">
+
+                <div class="sycm">
+              <ul class="clearfix">
+                <li>
+              <h2 id="5"></h2>
+              <span>当年支出比</span>
+            </li>
+            <li>
+              <h2 id="6"></h2>
+              <span>当年支出额</span>
+            </li>
+            <li>
+              <h2 id="3"></h2>
+              <span>当月支出比</span>
+            </li>
+            <li>
+              <h2 id="4"></h2>
+              <span>当月支出额</span>
+            </li>
+            <li>
+              <h2 id="2"></h2>
+              <span>当天支出比</span>
+            </li>
+            <li>
+              <h2 id="1"></h2>
+              <span>当天支出额</span>
+            </li>
+        </ul>
+        </div>
+          </div>
+        </div>
+
+      </li>
+      <li>
+        <div class="boxall" style="height:100px">
+          <div class="navboxall"><h1><a href="" style="color: white">用户消费数据可视化分析</a></h1></div>
+        </div>
+        <div class="boxall" style="height:610px">
+
+          <div class="navboxall" style="overflow: hidden;height: 100%">
+			<div style="width: 120%; height: 120%; position: relative; left: -10%; top: -11%;"  id="echart3">
+
+			  </div>
+			</div>
+        </div>
+
+      </li>
+      <li>
+        <div class="boxall" style="height: 720px">
+          <div id="showTime" class="weather"></div>
+          <div class="alltitle">
+            <img src="../static/images/weather.png">
+            用户消费数据省份排行
+            <span id="total-expenditure-time"></span>
+          </div>
+          <div class="navboxall" id="echart31">
+            <table class="table1" width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tbody id="expenditures-table-body">
+                <tr>
+                  <th scope="col">排名</th>
+                  <th scope="col">名称</th>
+                  <th scope="col">金额</th>
+                </tr>
+                <tr>
+                  <td><span>1</span></td>
+                  <td>广东</td>
+                  <td>114万<br></td>
+                </tr>
+                <tr>
+                  <td><span>2</span></td>
+                  <td>北京</td>
+                  <td>923823万</td>
+                </tr>
+                <tr>
+                  <td><span>3</span></td>
+                  <td>上海</td>
+                  <td>1240253万</td>
+                </tr>
+                <tr>
+                  <td><span>4</span></td>
+                  <td>浙江</td>
+                  <td>1.2亿</td>
+                </tr>
+                <tr>
+                  <td><span>5</span></td>
+                  <td>江苏</td>
+                  <td>13423万</td>
+                </tr>
+				  <tr>
+                  <td><span>6</span></td>
+                  <td>四川</td>
+                  <td>13423万</td>
+                </tr>
+               </tr>
+				  <tr>
+                  <td><span>7</span></td>
+                  <td>四川</td>
+                  <td>13423万</td>
+                </tr>
+               </tr>
+				  <tr>
+                  <td><span>8</span></td>
+                  <td>四川</td>
+                  <td>13423万</td>
+                </tr>
+               </tr>
+				  <tr>
+                  <td><span>9</span></td>
+                  <td>四川</td>
+                  <td>13423万</td>
+                </tr>
+               </tr>
+				  <tr>
+                  <td><span>10</span></td>
+                  <td>四川</td>
+                  <td>13423万</td>
+                </tr>
+               </tr>
+				  <tr>
+                  <td><span>11</span></td>
+                  <td>四川</td>
+                  <td>13423万</td>
+                </tr>
+              </tr>
+				  <tr>
+                  <td><span>12</span></td>
+                  <td>四川</td>
+                  <td>13423万</td>
+                </tr>
+              </tr>
+				  <tr>
+                  <td><span>13</span></td>
+                  <td>四川</td>
+                  <td>13423万</td>
+                </tr>
+              </tr>
+				  <tr>
+                  <td><span>14</span></td>
+                  <td>四川</td>
+                  <td>13423万</td>
+                </tr>
+              </tr>
+				  <tr>
+                  <td><span>15</span></td>
+                  <td>四川</td>
+                  <td>13423万</td>
+                </tr>
+              </tr>
+				  <tr>
+                  <td><span>16</span></td>
+                  <td>四川</td>
+                  <td>13423万</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </li>
+    </ul>
+	  <ul class="clearfix">
+      <li style="width:60%">
+        <div class="boxall" style="height:300px;">
+          <div class="alltitle">用户平均每月购买量与浏览量</div>
+          <div class="navboxall " id="echart2" >
+            
+          </div>
+        </div>
+      </li>
+      <li style="width: 40%">
+        
+        <div class="boxall" style="height:300px">
+          <div class="alltitle">用户平均每月消费指数</div>
+          <div class="navboxall" id="echart4"></div>
+        </div>
+      </li>
+      
+    </ul>
+	  
+  </div>
+</div>
+<div id="showTime" class="weather"></div>
+<script>
+$(function(){
+	$('.wrap,.adduser').liMarquee({
+		direction: 'up',//身上滚动 
+		runshort: false,//内容不足时不滚动
+		scrollamount: 20//速度
+	});
+});
+
+function updateTime() {
+  var now = new Date();
+  var year = now.getFullYear();
+  var month = String(now.getMonth() + 1).padStart(2, '0');
+  var day = String(now.getDate()).padStart(2, '0');
+  var hours = String(now.getHours()).padStart(2, '0');
+  var minutes = String(now.getMinutes()).padStart(2, '0');
+  var seconds = String(now.getSeconds()).padStart(2, '0');
+  var timeString = year + "年" + month + "月" + day + "日 " + hours + "时" + minutes + "分" + seconds + "秒";
+  document.getElementById("total-expenditure-time").textContent = timeString;
+  setTimeout(updateTime, 1000); // 更新时间，每秒刷新一次
+}
+
+updateTime(); // 第一次加载时更新时间
+
+
+</script>
+</body>
+</html>
